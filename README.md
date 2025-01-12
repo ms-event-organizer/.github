@@ -25,15 +25,15 @@
 ![](https://camo.githubusercontent.com/31aea4798a4079be6bffe5ca9b264e2764adf3d992ff35f0240211c221cbbe8d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f537761676765722d2532333835454132443f7374796c653d706c6173746963266c6f676f3d73776167676572266c6f676f436f6c6f723d7768697465)
 ![](https://camo.githubusercontent.com/709af8eea5ce7135de90589399f9a208dd532c4858bf1cb2a2aefcec2e15c63e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a556e69742d2532333235413136323f7374796c653d706c6173746963266c6f676f3d6a756e697435266c6f676f436f6c6f723d7768697465)
 
-## Cервис состоит из 5 микросервисов:
-• _user-service_ - микросервис для работы с пользователями;
+## Приложение состоит из 5 микросервисов:
+• [_user-service_](https://github.com/ms-second-team/user-service) - микросервис для работы с пользователями;
 
-• _event_service_ - микросервис для управления событиями и командами событий;
+• [_event_service_](https://github.com/ms-second-team/event-service) - микросервис управления событиями;
 
-• _tasks-service_ - микросервис для управления задачами;
+• [_task-service_](https://github.com/ms-second-team/task-service) - микросервис для управления задачами;
 
-• _registration_service_ - микросервис для работы с регистрациями на мероприятия;
+• [_registration_service_](https://github.com/ms-second-team/registration_service) - микросервис для работы с регистрациями на мероприятия;
 
-• _review_service_ - микросервис для работы с отзывами на мероприятия;
+• [_review_service_](https://github.com/ms-second-team/review-service) - микросервис для работы с отзывами на мероприятия;
 
 ## Микросервисы взаимодействуют между собой по средствам OpenFeign.
